@@ -133,8 +133,8 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: -1.2em;
-    margin-right: -1.2em; */
+    margin-left: -1.2em;
+    margin-right: -1.2em;
 }
 
 .row>* {
@@ -477,6 +477,14 @@ p {
 
 
 /* Section */
+
+.personal-information {
+    padding: 60px;
+}
+
+.personal-information-image img {
+    padding: 60px;
+}
 
 .title-project {
     background-color: var(--main-color-white);
