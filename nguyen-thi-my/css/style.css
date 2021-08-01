@@ -18,6 +18,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.block {
+    display: block;
+}
+
 .flex {
     display: flex;
 }
@@ -150,6 +154,14 @@ body {
     padding-left: 0;
 }
 
+.mt-4 {
+    padding-top: 1rem;
+}
+
+.mt-8 {
+    padding-top: 3rem;
+}
+
 .mx-4 {
     padding-left: 1rem;
     padding-bottom: 1rem;
@@ -230,6 +242,10 @@ body {
 
 .items-center {
     align-items: center;
+}
+
+.line-height {
+    line-height: 35px;
 }
 
 @media (min-width:576px) {
@@ -570,9 +586,10 @@ main {
     position: relative;
 }
 
-.image img {
+
+/* .image img {
     padding: 60px;
-}
+} */
 
 .banner-content {
     padding: 100px 60px;
@@ -775,6 +792,10 @@ h6 {
 
 
 /* End Contact */
+
+footer {
+    margin-top: 2rem;
+}
 
 .footer {
     padding: 30px 0;
