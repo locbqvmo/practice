@@ -9,257 +9,252 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     <!-- header - start -->
-    <header class="header flex lg:justify-around mjc md:justify-center h-20 bg-green-600 items-center text-white w-full top-0 z-50 relative">
-        <label class="header__icon cursor-pointer text-3xl absolute left-10 lg:hidden md:block" for="show">
-            <i class="fas fa-bars"></i>
+    <header class="header flex md:justify-center h-20 bg-green-600 items-center w-full top-0 relative">
+        <label class="header__icon cursor-pointer text-3xl absolute left-10" for="show">
+            <i class="fas fa-bars text-white"></i>
         </label>
 
-        <div class="header__brand text-3xl">
-            <a href="#" class="header__brank-link font-bold">MY CV</a>
+        <div class="header__brand text-3xl font-bold">
+            <a class="text-white no-underline" href="#" class="header__brand-link ">MY CV</a>
         </div>
-        <nav class="header__navbar md:hidden lg:block m-hiden">
-            <ul class="header__navbar-list flex m-text-size">
-                <li class="header__navbar-item mx-2 p-2 hover:bg-gray-50 rounded transition-all duration-500  hover:text-green-600 ">
-                    <a href="#about">ABOUT</a>
+        <nav class="header__navbar">
+            <ul class="header__navbar-list flex m-text-size list-none">
+                <li class="header__navbar-item mx-2 p-2 rounded transition-all  ">
+                    <a class="text-white no-underline" href="#about">ABOUT</a>
                 </li>
-                <li class="header__navbar-item mx-2 p-2 hover:bg-gray-100 rounded transition-all duration-500 hover:text-green-600 ">
-                    <a href="#skill">SKILLS</a>
+                <li class="header__navbar-item mx-2 p-2 rounded transition-all ">
+                    <a class="text-white no-underline" href="#skill">SKILLS</a>
                 </li>
-                <li class="header__navbar-item mx-2 p-2 hover:bg-gray-100 rounded transition-all duration-500 hover:text-green-600 ">
-                    <a href="#project">PROJECT</a>                  
+                <li class="header__navbar-item mx-2 p-2 rounded transition-all ">
+                    <a class="text-white no-underline" href="#project">PROJECT</a>                  
                 </li>
-                <li class="header__navbar-item mx-2 p-2 hover:bg-gray-100 rounded transition-all duration-500 hover:text-green-600 ">
-                    <a href="#education">EDUCATION</a>                  
+                <li class="header__navbar-item mx-2 p-2 rounded transition-all ">
+                    <a class="text-white no-underline" href="#education">EDUCATION</a>                  
                 </li>
-                <li class="header__navbar-item mx-2 p-2 hover:bg-gray-100 rounded transition-all duration-500 hover:text-green-600 ">
-                    <a href="#experience">EXPERIENCE</a>
+                <li class="header__navbar-item mx-2 p-2 rounded transition-all ">
+                    <a class="text-white no-underline" href="#experience">EXPERIENCE</a>
                 </li>
-                <li class="header__navbar-item mx-2 p-2 hover:bg-gray-100 rounded transition-all duration-500 hover:text-green-600 ">
-                    <a href="#contract">CONTRACT</a>
+                <li class="header__navbar-item mx-2 p-2 rounded transition-all ">
+                    <a class="text-white no-underline" href="#contract">CONTRACT</a>
                 </li>
             </ul>
         </nav>
         <!-- header mobile -->
         <input type="checkbox" hidden class="checked-show" id="show">
-        <label for="show" class="header__menu-overlay fixed top-0 left-0 w-full h-full bg-black bg-opacity-40 hidden"></label>
-        <div class="header__menu fixed top-0 left-0 bottom-0 w-80 h-screen bg-green-500 transform -translate-x-full transition-transform duration-300 ease-linear">
-            <label class="header__menu-closed absolute right-3 text-5xl" for="show">
+        <label for="show" class="header__menu-overlay fixed top-0 left-0 w-full h-full hidden"></label>
+        <div class="header__menu fixed top-0 left-0 bottom-0 w-80 h-screen bg-green-500">
+            <label class="header__menu-closed absolute right-3 text-3xl text-white" for="show">
                 <i class="fas fa-times"></i>
             </label>
-            <ul class="header__menu-list text-3xl mt-20">
-                <li class="header__menu-item p-3 bb">
-                    <a href="#about">ABOUT</a>
+            <ul class="header__menu-list text-3xl">
+                <li class="header__menu-item bb ">
+                    <a class="no-underline text-white" href="#about">ABOUT</a>
                 </li>
-                <li class="header__menu-item p-3 bb">
-                    <a href="#skill">SKILL</a>
+                <li class="header__menu-item bb ">
+                    <a class="no-underline text-white" href="#skill">SKILL</a>
                 </li>
-                <li class="header__menu-item p-3 bb">
-                    <a href="#project">PROJECT</a>
+                <li class="header__menu-item bb ">
+                    <a class="no-underline text-white" href="#project">PROJECT</a>
                 </li>
-                <li class="header__menu-item p-3 bb">
-                    <a href="#education">EDUCATION</a>
+                <li class="header__menu-item bb ">
+                    <a class="no-underline text-white" href="#education">EDUCATION</a>
                 </li>
-                <li class="header__menu-item p-3 bb">
-                    <a href="#experience">EXPERIENCE</a>
+                <li class="header__menu-item bb ">
+                    <a class="no-underline text-white" href="#experience">EXPERIENCE</a>
                 </li>
-                <li class="header__menu-item p-3 bb">
-                    <a href="#contract">CONTRACT</a>
+                <li class="header__menu-item bb ">
+                    <a class="no-underline text-white" href="#contract">CONTRACT</a>
                 </li>
             </ul>
         </div>
     </header>
     <!-- header - end -->
-
     <!-- page content - start -->
     <div class="app__container">
         <section id="about" class="container__about relative">
-            <div class="container__about-image bg-center bg-no-repeat bg-cover "></div>
-            <div class="transform absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center max-w-4xl w-full text-white">
-                <div class="container__about-avt z-50 flex justify-center z-20">
+            <div class="container__about-background"></div>
+            <div class="container__about-img absolute w-full text-white">
+                <div class="container__about-avt">
                     <a href="#">
-                        <img class="w-44 h-44 rounded-full" src="./image/avt.png" alt="">
+                        <img src="./image/avt.png" alt="">
                     </a>
                 </div>
-                <h1 class="my-7 sm:text-2xl text-4xl">Pham Ngoc Chien</h1>
-                <p class="uppercase -m-4">WEB DEVELOPER, GRAPHIC DESIGNER</p>
-                <div class="container__about-btn mt-16 ">
-                    <button class="h-10 bg-green-600 hover:bg-green-400 w-32 mr-2 transition-all duration-500">
-                        <a href="#" class="text-base">Hire Me</a>
+                <h1 class="text-4xl">Pham Ngoc Chien</h1>
+                <p class="">WEB DEVELOPER, GRAPHIC DESIGNER</p>
+                <div class="container__about-btn">
+                    <button class="transition-all ">
+                        <a href="#" class="text-base no-underline text-white">Hire Me</a>
                     </button>
-                    <button class="h-10 bg-green-600 hover:bg-green-400 w-32 ml-2 transition duration-500">
-                        <a href="#" class="text-base">Download CV</a>
+                    <button class="transition-all">
+                        <a href="#" class=" text-base no-underline text-white">Download CV</a>
                     </button>
                 </div>
             </div>
         </section>
         <section class="container__social">
             <div class="w-full relative flex justify-center -my-8 content-center text-white text-2xl mb-10">
-                <a href="#" class="fab fa-facebook bg-gray-500 hover:bg-gray-400 p-4 rounded-full mx-1 transition duration-500 mx-3">
+                <a href="#" class="fab fa-facebook text-white rounded-full no-underline mx-1 transition-all">
                 </a>
-                <a href="#" class="fab fa-google bg-gray-500 p-4 rounded-full hover:bg-gray-400 mx-1 transition duration-500 mx-3">
+                <a href="#" class="fab fa-google text-white rounded-full no-underline  mx-1 transition-all">
                 </a>
-                <a href="#" class="fab fa-instagram bg-gray-500 p-4 rounded-full mx-1 hover:bg-gray-400 transition duration-500 mx-3">
+                <a href="#" class="fab fa-instagram text-white rounded-full no-underline mx-1 transition-all-all">
                 </a>
             </div>
         </section>
-        <div class="ib container mr-auto ml-auto xl:px-48 lg:px-10 md:px-10 sm:px-3 mt-32">
-            <section class="container__about-detail mt-28 mx-2">
-                <div class="">
-                    <div class="xl:flex border">
-                        <div class="p-5 xl:w-6/12 lg:w-full m-12 margin-0">
-                            <div class="font-bold text-3xl mb-4 ">About</div>
-                            <p class="xl:text-xl">I am Chien, a front-end developer, with good knowledge of Html, Css, Javascropt, React, and Design Patterns.</p>
-                            <p class="xl:text-xl">Desire to apply a lot of knowledge learned in the real environment, acquire new knowledge and new technology, accumulate more experience and skills to become a FullStack developer.
-                            </p>
-    
+        <div class="container__group">
+            <section class="container__about-detail mt-28">
+                <div class="detail--group border">
+                    <div class="m-12 sm-12 lg-12 xl-6 p-5">
+                        <div class="font-bold text-3xl mb-4 ">About</div>
+                        <p class="leading-4">I am Chien, a front-end developer, with good knowledge of Html, Css, Javascropt, React, and Design Patterns.</p>
+                        <p class="leading-4">Desire to apply a lot of knowledge learned in the real environment, acquire new knowledge and new technology, accumulate more experience and skills to become a FullStack developer.
+                        </p>
+
+                    </div>
+                    <div class="m-12 sm-12 lg-12 xl-6 p-5">
+                        <div class="font-bold text-3xl mb-4">Basic Information</div>
+                        <div class="flex items-center mb-2 ">
+                            <div class="min-w-5">Age: </div>
+                            <div class="xl:text-xl">22</div>
                         </div>
-                        <div class="p-5 xl:w-6/12 lg:w-full m-12 margin-0">
-                            <div class="font-bold text-3xl mb-4">Basic Information</div>
-                            <div class="flex items-center ">
-                                <div class="xl:text-xl xl:w-1/5 sm:w-2/5 m-3">Age: </div>
-                                <div class="xl:text-xl">22</div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="xl:text-xl xl:w-1/5 sm:w-2/5 m-3">Email: </div>
-                                <div class="xl:text-xl">phamngocchien.2308 @gmail.com</div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="xl:text-xl xl:w-1/5 sm:w-2/5 m-3">Phone: </div>
-                                <div class="xl:text-xl ">0917462471</div>
-                            </div>
-                            <div class="flex items-center">
-                                <div class="xl:text-xl xl:w-1/5 sm:w-2/5 m-3">Address: </div>
-                                <div class="xl:text-xl">12 Chính Kinh, Thanh Xuân</div>
-                            </div>
+                        <div class="flex items-center mb-2">
+                            <div class="min-w-5">Email: </div>
+                            <div class="xl:text-xl">phamngocchien.2308 @gmail.com</div>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <div class="min-w-5">Phone: </div>
+                            <div class="xl:text-xl ">0917462471</div>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <div class="min-w-5">Address: </div>
+                            <div class="xl:text-xl">12 Chính Kinh, Thanh Xuân</div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="skill" class="container-skill mt-28 mx-2">
-                <div class="mb-10">
+            <section id="skill" class="container-skill mt-28">
+                <div class="">
                     <div class="text-center font-bold text-3xl mb-10">Skills</div>
-                    <div class="flex border flex-wrap p-5">                    
-                        <div class=" m-12 margin-0 sm:m-2 p-4 sm:p-1 sm:w-full">
+                    <div class="flex border p-7 flex-wrap">                    
+                        <div class="p-2 m-12 sm-12 lg-">
                             <div class="flex justify-between">
                                 <p>HTML</p>
-                                <div class="w-3/5 h-5 text-right">75%</div>
+                                <div class="text-right">75%</div>
                             </div>
                             <div class="h-2 bg-green-300 w-full rounded mt-3">
-                                <div class="h-2 bg-green-500 w-9/12 rounded"></div>
+                                <div class="h-2 bg-green-500 sm-9 m-9 rounded"></div>
                             </div>
                         </div>
-                        <div class=" m-12 margin-0 sm:m-2 p-4 sm:p-1 sm:w-full">
+                        <div class="p-2 m-12 sm-12 lg-">
                             <div class="flex justify-between">
                                 <p>CSS</p>
-                                <div class="w-3/5 h-5 text-right">60%</div>
+                                <div class="text-right">60%</div>
                             </div>
                             <div class="h-2 bg-green-300 w-full rounded mt-3">
-                                <div class="h-2 bg-green-500 w-3/5 rounded"></div>
+                                <div class="h-2 bg-green-500 sm-7 m-7 rounded"></div>
                             </div>
                         </div>
-                        <div class=" m-12 margin-0 sm:m-2 p-4 sm:p-1 sm:w-full">
+                        <div class="p-2 m-12 sm-12 lg-">
                             <div class="flex justify-between">
                                 <p>JAVASCRIPT</p>
-                                <div class="w-3/5 h-5 text-right">50%</div>
+                                <div class="text-right">50%</div>
                             </div>
                             <div class="h-2 bg-green-300 w-full rounded mt-3">
-                                <div class="h-2 bg-green-500 w-1/2 rounded"></div>
+                                <div class="h-2 bg-green-500 sm-6 m-6 rounded"></div>
                             </div>
                         </div>
-                        <div class=" m-12 margin-0 sm:m-2 p-4 sm:p-1 sm:w-full">
+                        <div class="p-2 m-12 sm-12 lg-">
                             <div class="flex justify-between">
                                 <p>REACTJS</p>
-                                <div class="w-3/5 h-5 text-right">40%</div>
+                                <div class="text-right">40%</div>
                             </div>
                             <div class="h-2 bg-green-300 w-full rounded mt-3">
-                                <div class="h-2 bg-green-500 w-2/5 rounded"></div>
+                                <div class="h-2 bg-green-500 sm-5 m-5 rounded"></div>
                             </div>
                         </div>
-                        <div class=" m-12 margin-0 sm:m-2 p-4 sm:p-1 sm:w-full">
+                        <div class="p-2 m-12 sm-12 lg-">
                             <div class="flex justify-between">
                                 <p>BOOTSTRAP</p>
-                                <div class="w-3/5 h-5 text-right">40%</div>
+                                <div class="text-right">40%</div>
                             </div>
                             <div class="h-2 bg-green-300 w-full rounded mt-3">
-                                <div class="h-2 bg-green-500 w-2/5 rounded"></div>
+                                <div class="h-2 bg-green-500 sm-5 m-5 rounded"></div>
                             </div>
                         </div>
-                        <div class=" m-12 margin-0 sm:m-2 p-4 sm:p-1 sm:w-full">
+                        <div class="p-2 m-12 sm-12 lg-">
                             <div class="flex justify-between">
                                 <p>SQL</p>
-                                <div class="w-3/5 h-5 text-right">40%</div>
+                                <div class="text-right">40%</div>
                             </div>
                             <div class="h-2 bg-green-300 w-full rounded mt-3">
-                                <div class="h-2 bg-green-500 w-2/5 rounded"></div>
+                                <div class="h-2 bg-green-500 sm-5 m-5 rounded"></div>
                             </div>
                         </div>
-                        <div class=" m-12 margin-0 sm:m-2 p-4 sm:p-1 sm:w-full">
+                        <div class="p-2 m-12 sm-12 lg-">
                             <div class="flex justify-between">
                                 <p>.NET</p>
-                                <div class="w-3/5 h-5 text-right">40%</div>
+                                <div class="text-right">40%</div>
                             </div>
                             <div class="h-2 bg-green-300 w-full rounded mt-3">
-                                <div class="h-2 bg-green-500 w-2/5 rounded"></div>
+                                <div class="h-2 bg-green-500 sm-5 m-5 rounded"></div>
                             </div>
                         </div>
                         
                     </div>
             </div>
             </section>
-            <section id="project" class="container__projects mt-28 mx-2">
+            <section id="project" class="container__projects mt-28">
                 <div class="mb-10 ">
                     <h1 class=" text-center font-bold text-3xl mb-10">Projects</h1>
                     <div class="relative project-icon">
                         <div class="write-icon fas fa-edit text-2xl p-5 bg-green-500 text-white rounded-full absolute left-0 top-0">
                         </div>
-                        <div class="project-detail relative ml-24 bg-gray-100 px-10 py-6 rounded-md shadow-lg">
+                        <div class="project-detail relative ml-24 bg-gray-100 rounded-md p-4 shadow-md">
                             <h2 class="font-bold text-2xl mb-3">05/2021</h2>
-                            <p class=" text-lg mb-3"><Strong>Project: </Strong> 
+                            <p class=" text-lg mb-3"><strong>Project: </strong> 
                                 Movie Project
                             </p>
-                            <p class=" text-lg mb-3"><Strong>Project Description: </Strong> 
+                            <p class=" text-lg mb-3"><strong>Project Description: </strong> 
                                 A website to watch movies online
                             </p>
-                            <p class=" text-lg mb-3"><Strong>Team Size: </Strong>1</p>
-                            <p class=" text-lg mb-3"><Strong>Technologies: </Strong> 
+                            <p class=" text-lg mb-3"><strong>Team Size: </strong>1</p>
+                            <p class=" text-lg mb-3"><strong>Technologies: </strong> 
                                 HTML/CSS/Javascript
                             </p>
-                            <!-- <p class=" text-lg mb-3"><Strong>Github: </Strong> 
-                                <a target="_blank" class="hover:text-green-500 transition duration-200 underline" href="https://phamngocchien.github.io/MovieProject.github.io/Homepage.html">https://phamngocchien.github.io/MovieProject.github.io/Homepage.html</a>
-                            </p> -->
+                            <p class=" text-lg mb-3"><strong>Github: </strong> 
+                                <a target="_blank" class="" href="https://phamngocchien.github.io/MovieProject.github.io/Homepage.html">Details</a>
+                            </p>
                         </div>                   
                     </div>
                 </div>
-
-                <div class="mb-10">
+                <div class="mb-10 ">
                     <div class="relative project-icon">
                         <div class="write-icon fas fa-edit text-2xl p-5 bg-green-500 text-white rounded-full absolute left-0 top-0">
                         </div>
-                        <div class="project-detail relative ml-24 bg-gray-100 px-10 py-6 rounded-md shadow-lg">
-                            <h2 class="font-bold text-2xl mb-3">05/2021</h2>
-                            <p class=" text-lg mb-3"><Strong>Project: </Strong> 
+                        <div class="project-detail relative ml-24 bg-gray-100 rounded-md p-4 shadow-md">
+                            <h2 class="font-bold text-2xl mb-3">06/2021</h2>
+                            <p class=" text-lg mb-3"><strong>Project: </strong> 
                                 Note
                             </p>
-                            <p class=" text-lg mb-3"><Strong>Project Description: </Strong> 
+                            <p class=" text-lg mb-3"><strong>Project Description: </strong> 
                                 Note Management
                             </p>
-                            <p class=" text-lg mb-3"><Strong>Team Size: </Strong>1</p>
-                            <p class=" text-lg mb-3"><Strong>Technologies: </Strong> 
+                            <p class=" text-lg mb-3"><strong>Team Size: </strong>1</p>
+                            <p class=" text-lg mb-3"><strong>Technologies: </strong> 
                                 HTML/CSS/ReactJS
                             </p>
-                            <!-- <p class=" text-lg mb-3"><Strong>Github: </Strong> 
-                                <a target="_blank" class="hover:text-green-500 transition duration-200 underline" href="https://github.com/phamngocchien/notefirebase.github.io.git">https://github.com/phamngocchien/notefirebase.github.io.git</a>
-                            </p> -->
+                            <p class=" text-lg mb-3"><strong>Github: </strong> 
+                                <a target="_blank" class="" href="https://github.com/phamngocchien/notefirebase.github.io.git">Details</a>
+                            </p>
                         </div>                   
                     </div>
                 </div>
             </section>
-            <section id="education" class="container__education mt-28 mx-2">
+            <section id="education" class="container__education mt-28">
                 <h1 class="text-center font-bold text-3xl mb-10">Education</h1>
                 <div class="mb-10 relative edu__group">
                     <div class="m-hiden write-icon fas fa-edit text-2xl p-5 bg-green-500 text-white rounded-full absolute right-0 top-0">
@@ -267,62 +262,61 @@
                     <div class="mr-24 edu__group-detail">
                         <div class="w-full bg-green-500 p-5 rounded-t-md text-white font-bold text-2xl">2017 - 2021</div>
                         <hr class="my-2 bg-green-500" />
-                        <div class="bg-gray-100 px-10 py-6 rounded-b-md shadow w-full text-lg">
+                        <div class="bg-gray-100 px-10 py-6 rounded-b-md shadow-md w-full text-lg">
                             <p><strong>Currently a student at Thang Long University</strong></p>
                             <p><strong>Specialization:</strong> Information Technology</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="experience" class="container__experience mt-28 mx-2">
+            <section id="experience" class="container__experience mt-28">
                 <h1 class="text-center font-bold text-3xl mb-10">Experience</h1>
                 <div class="mb-10 relative experience__group">
-                    <div class="m-hiden fas fa-edit text-2xl p-5 bg-green-500 text-white rounded-full absolute right-0 top-0">
+                    <div class="m-hiden write-icon fas fa-edit text-2xl p-5 bg-green-500 text-white rounded-full absolute right-0 top-0">
                     </div>
                     <div class="mr-24 experience__group-detail">
                         <div class="w-full bg-green-500 p-5 rounded-t-md text-white font-bold text-2xl">7/2021 - 9/2021</div>
                         <hr class="my-2 bg-green-500" />
-                        <div class="bg-gray-100 px-10 py-6 rounded-b-md shadow w-full text-lg">
-                            <p><strong>Intern at VMO Holdings </strong>- ReactJS</p>
+                        <div class="bg-gray-100 px-10 py-6 rounded-b-md shadow-md w-full text-lg">
+                            <p><strong>Intern at VMO Holdings</strong></p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="contract" class="container__contract mb-80 mt-28 mx-2">
+            <section id="contract" class="container__contract mt-28">
                 <h1 class="text-center font-bold text-3xl mb-10">Contract</h1>
                 <div>
                     <div class="flex items-center mb-5 ">
-                        <div class="far fa-envelope w-24 h-24 text-5xl text-center p-5 text-gray-100 bg-green-400 rounded "></div>
-                        <p class="xl:text-xl sm-ml xl:ml-14 md:ml-12 lg:ml-14 sm:text-xs lg:text-2xl md:text-xl ">phamngocchien.2308 @gmail.com</p>
+                        <div class="far fa-envelope w-24 h-24 m-h-12 m-w-12 m-text-sm mr-8 text-3xl text-center p-5 text-gray-100 bg-green-500 text-white rounded "></div>
+                        <p class="text-lg">phamngocchien.2308 @gmail.com</p>
                     </div>
                     <div class="flex items-center mb-5 ">
-                        <div class="fas fa-map-marker-alt w-24 h-24 text-5xl text-center p-5 text-gray-100 bg-green-400 rounded"></div>
-                        <p class="xl:text-xl sm-ml xl:ml-14 md:ml-12 lg:ml-14 sm:text-xs lg:text-2xl md:text-xl ">12 Chính Kinh, Thanh Xuân, Hà Nội</p>
+                        <div class="fas fa-map-marker-alt w-24 h-24 m-h-12 m-w-12 m-text-sm mr-8 text-3xl text-center p-5 text-gray-100 bg-green-500 text-white rounded"></div>
+                        <p class="text-lg">12 Chính Kinh, Thanh Xuân, Hà Nội</p>
                     </div>
                     <div class="flex items-center mb-5">
-                        <div class="fas fa-phone-alt w-24 h-24 text-5xl text-center p-5 text-gray-100 bg-green-400 rounded"></div>
-                        <p class="xl:text-xl sm-ml xl:ml-14 md:ml-12 lg:ml-14 sm:text-xs lg:text-2xl md:text-xl ">0917462471</p>
+                        <div class="fas fa-phone-alt w-24 h-24 m-h-12 m-w-12 m-text-sm mr-8 text-3xl text-center p-5 text-gray-100 bg-green-500 text-white rounded"></div>
+                        <p class="text-lg">0917462471</p>
                     </div>
                 </div>
             </section>
-        </div> 
+        </div>
     </div>
     <!-- page content - end -->
-
     <!-- footer - start -->
-    <footer class="bg-green-600 p-4 relative">
-        <div class="w-full absolute -top-16 relative flex justify-center -my-8 content-center text-white text-2xl mb-4">
-            <a href="#" class="fab fa-facebook text-gray-400 text-4xl hover:text-blue-500 p-4 rounded-full mx-1 transition duration-500 mx-3">
+    <footer class="p-4 relative">
+        <div class="footer__icon absolute relative flex justify-center content-center text-white text-2xl mb-4">
+            <a href="#" class="fab fa-facebook no-underline text-gray-400 text-4xl p-4 rounded-full mx-1 mx-3">
             </a>
-            <a href="#" class="fab fa-google text-gray-400 text-4xl p-4 rounded-full hover:text-red-500 mx-1 transition duration-500 mx-3">
+            <a href="#" class="fab fa-google no-underline text-gray-400 text-4xl p-4 rounded-full mx-1 mx-3">
             </a>
-            <a href="#" class="fab fa-instagram text-gray-400 text-4xl p-4 rounded-full mx-1 hover:text-yellow-500 transition duration-500 mx-3">
+            <a href="#" class="fab fa-instagram no-underline text-gray-400 text-4xl p-4 rounded-full mx-1 mx-3">
             </a>
         </div>
-        <div class="text-center text-xl absolute transform absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-white">
+        <div class="footer__trademark text-white">
             <p>Curriculum Vitae</p>
-            <p class="underline">Pham Ngoc Chien</p>
-        </div>
+            <p>Pham Ngoc Chien</p>
+        </div> 
     </footer>
     <!-- footer - end -->
 
