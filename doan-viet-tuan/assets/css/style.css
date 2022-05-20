@@ -224,11 +224,8 @@ justify-content: space-around;
   font-size: 1.5rem;
 }
 
-.nav-mobie {
-  position: fixed;
-  bottom: 10px;
 
-}
+
 
 .nav-mobie > ul {
   background-color: rgba(88,88,88, .4);
