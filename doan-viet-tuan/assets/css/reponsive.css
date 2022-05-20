@@ -1,0 +1,86 @@
+@media (min-width: 768px) {
+  .nav-mobie > ul {
+    width: 75%;
+  }
+  #home>div {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  .flex-row-md {
+    flex-direction: row;
+  }
+
+  .navbar-footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .h-full {
+    height: auto;
+  }
+
+  .flex-wrap-md {
+    flex-wrap: wrap;
+  }
+
+  .justify-content-around-md {
+    justify-content: space-around;
+  }
+
+  .align-items-center-md {
+    align-items: center;
+  }
+
+  .w-25-md {
+    width: 25%;
+  }
+
+  .w-50-md {
+    width: 50%;
+  }
+
+  .pl-10-md {
+    padding-left: 10%;
+  }
+
+  .text-centrer-md {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-left: 300px;
+  }
+
+  .nav-mobie {
+    display: none;
+  }
+
+  .header-md {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 0 15px;
+    background: #38ada9
+  }
+
+  #home {
+    background-image: url('../image/what-is-a-web-developer.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 100%;
+    opacity: 0.5;
+  }
+
+
+
+  #home>.d-flex {
+    display: none;
+  }
+}
