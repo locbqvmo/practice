@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js"></script>
+    
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-left">
+                <a href="#">
+                    <img src="./assets/img/logo.svg" alt="" class="nav_logo">
+                </a>
+
+                <span class="nav_logo-text">.Portfolio</span>
+            </div>
+
+            <div class="header-right">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#introduce" class="nav_link">Introduce</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#project" class="nav_link">Project</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#timeline" class="nav_link">Timeline</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="portfolio">
+            <div class="portfolio_container container grid">
+                <div class="portfolio-left">
+                    <div class="portfolio-avatar">
+                       <img src="./assets/img/avatar.png" alt="" class="avatar">
+                   </div>
+
+                   <div class="portfolio-general">
+                        <h2 class="name">Ta Cong Duc</h2>
+                        <p class="job">Web Developer</p>
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php" target="_blank">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="#">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                            <a href="#">
+                                <i class='bx bxl-github' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-right">
+                    <section class="about section">
+                        <div class="about_introduce">
+                            <h2 class="section__title">hello, i'm duc!</h2>
+                            <p>I am a talanted Freelance Graphic Designer and Illustrator. I design websites, logos, brochures, banners, book covers, and everything related to design and inspiration. I have graduated from International University of Design. Some of my works featured on international exhibition of design.</p>
+                            <button class="btn btn-border">
+                                <i class='bx bx-share-alt'></i>
+                                <span class="btn-text">share</span>
+                            </button>
+                        </div>
+
+                        <div class="about_section about_infor grid">
+                            <div class="personal">
+                                <h3 class="about_title">personal information</h3>
+                                <div class="personal_data">
+                                    <div class="personal_item">
+                                        <p class="personal_label">full name</p>
+                                        <p class="personal_infor">Ta Cong Duc</p>
+                                    </div>
+                                    <div class="personal_item">
+                                        <p class="personal_label">d.o.b</p>
+                                        <p class="personal_infor">24 Oct 2000</p>
+                                    </div>
+                                    <div class="personal_item">
+                                        <p class="personal_label">address</p>
+                                        <p class="personal_infor">19 Hoe Thi, Xuan Phuong, Nam Tu Liem, Ha Noi</p>
+                                    </div>
+                                    <div class="personal_item">
+                                        <p class="personal_label">e-email</p>
+                                        <p class="personal_infor">ductc1@vmodev.com</p>
+                                    </div>
+                                    <div class="personal_item">
+                                        <p class="personal_label">phone</p>
+                                        <p class="personal_infor">+84866553202</p>
+                                    </div>
+                                    <div class="personal_item">
+                                        <p class="personal_label">Job</p>
+                                        <p class="personal_infor">Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="language">
+                                <p class="about_title">languages</p>
+                                <div class="language_data">
+                                    <div class="language_item">
+                                        <p class="language_label">english</p>
+                                        <div class="language_bar">
+                                            <span class="bullet bullet-fill"></span>
+                                            <span class="bullet bullet-fill"></span>
+                                            <span class="bullet bullet-fill"></span>
+                                            <span class="bullet bullet-fill"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="language_item">
+                                        <p class="language_label">japanese</p>
+                                        <div class="language_bar">
+                                            <span class="bullet bullet-fill"></span>
+                                            <span class="bullet bullet-fill"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="language_item">
+                                        <p class="language_label">chinese</p>
+                                        <div class="language_bar">
+                                            <span class="bullet bullet-fill"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                            <span class="bullet"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about_section about_skill grid">
+                            <div class="skill-main">
+                                <h3 class="about_title">professional skills</h3>
+                                <div class="skill_item">
+                                    <div class="skill_title">
+                                        <p class="skill_label">HTML & CSS</p>
+                                        <p class="skill">75%</p>
+                                    </div>
+                                    <div class="skill_bar">
+                                        <span class="skill_bar-fill" style="width: 75%;"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill_item">
+                                    <div class="skill_title">
+                                        <p class="skill_label">Javascript</p>
+                                        <p class="skill">60%</p>
+                                    </div>
+                                    <div class="skill_bar">
+                                        <span class="skill_bar-fill" style="width: 60%;"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill_item">
+                                    <div class="skill_title">
+                                        <p class="skill_label">ReactJS</p>
+                                        <p class="skill">50%</p>
+                                    </div>
+                                    <div class="skill_bar">
+                                        <span class="skill_bar-fill" style="width: 50%;"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skill_item">
+                                    <div class="skill_title">
+                                        <p class="skill_label">NodeJs</p>
+                                        <p class="skill">40%</p>
+                                    </div>
+                                    <div class="skill_bar">
+                                        <span class="skill_bar-fill" style="width: 40%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-additional">
+                                <h3 class="about_title">additional skills</h3>
+                                <div class="skill-pie">
+                                    <!-- <canvas id="skillsChart" style="width:100%;max-width:700px" response="true"></canvas> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about_section about_strength">
+                            <h3 class="about_title">strength</h3>
+                            <ul class="strength_list">
+                                <li class="strength_item">Customer oriented</li>
+                                <li class="strength_item">Handling Multi Tasks</li>
+                                <li class="strength_item">Creative Thinking</li>
+                                <li class="strength_item">Self Motivated</li>
+                                <li class="strength_item">Managerial Skills</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="project section" id="project">
+                        <h2 class="section__title">project</h2>
+                        <div class="project_data">
+                            <div class="project_item">
+                                <div class="project_infor">
+                                    <h3 class="project_title">Build Responsive Coffee Website</h3>
+                                    <ul>
+                                        <li>Design the user interface and build the features.</li>
+                                        <li>Build with Html & Css, Javascript.</li>
+                                        <li>Project: 
+                                            <a href="https://github.com/ductc241/Coffee">Link To Project</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="project_image">
+                                    <img src="./assets/img/preview.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="project_item">
+                                <div class="project_infor right">
+                                    <h3 class="project_title">Build Ecommerce Website</h3>
+                                    <ul>
+                                        <li>Design the user interface and build the features.</li>
+                                        <li>Build with Html & Css, Javascript(React), Nodejs(Express).</li>
+                                        <li>Project: 
+                                            <a href="https://github.com/ductc241/Coffee">Link To Project</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="project_image left">
+                                    <img src="./assets/img/preview-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="timeline section" id="timeline">
+                        <h2 class="section__title">timeline</h2>
+                        <div class="timeline_container">
+                            <ul class="timeline_data">
+                                <li class="timeline_item">
+                                    <div class="time">08/2018 - 06/2020</div>
+                                    <div class="content">
+                                        <h3 class="content_label">Hanoi University of Industry</h3>
+                                        <img class="content_logo" src="./assets/img/logo/logo1.jpg" alt="">
+                                        <p class="content_text">Electrical and Electronic Engineering Technology</p>
+                                    </div>
+                                </li>
+                                <li class="timeline_item">
+                                    <div class="time">10/2020 - 05/2022</div>
+                                    <div class="content">
+                                        <h3 class="content_label">FPT Polytechnic</h3>
+                                        <img class="content_logo" src="./assets/img/logo/logo2.jpg" alt="">
+                                        <p class="content_text">Web Design</p>
+                                    </div>
+                                </li>
+                                <li class="timeline_item">
+                                    <div class="time">05/2022 - Now</div>
+                                    <div class="content">
+                                        <h3 class="content_label">VMO Holdings</h3>
+                                        <img class="content_logo" src="./assets/img/logo/logo3.png" alt="">
+                                        <p class="content_text">Fresher ReactJs</p>
+                                    </div>
+                                </li>
+                                <li class="timeline_item">
+                                    <div class="time">2023 - Feature</div>
+                                    <div class="content">
+                                        <h3 class="content_label">???</h3>
+                                        <p class="content_text">Unknow</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="contact section" id="contact">
+                        <h2 class="section__title">contact me</h2>
+
+                        <form class="contact_form">
+                            <h3 class="form_text">Fell free to contact me in case of any question</h3>
+
+                            <div class="form_group">
+                                <label for="name" class="form_label">Your Name(require)</label>
+                                <input type="text" id="name" class="form_control">
+                            </div>
+
+                            <div class="form_group">
+                                <label for="email" class="form_label">Your Email(require)</label>
+                                <input type="text" id="email" class="form_control">
+                            </div>
+
+                            <div class="form_group">
+                                <label for="subject" class="form_label">Subject</label>
+                                <input type="text" id="subject" class="form_control">
+                            </div>
+
+                            <div class="form_group">
+                                <label for="message" class="form_label">Message</label>
+                                <textarea id="message" cols="30" rows="10" class="form_control"></textarea>
+                            </div>
+
+                            <button class="btn btn-primary">Send</button>
+                        </form>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.86385700103!2d105.74230242903688!3d21.0381327480474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b991d80fd5%3A0x53cefc99d6b0bf6f!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1653155933172!5m2!1svi!2s"
+                            width="100%" height="350"
+                            style="border:0;"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <svg class="shape-left">
+        <polygon class="pol" points="0,455,693,352,173,0,92,0,0,71"></polygon>
+    </svg>
+
+    <svg class="shape-right">
+        <polygon points="0,0,633,0,633,536"></polygon>
+    </svg>
+
+    <script>
+        var xValues = ["UX", "UI", "Testing"];
+        var yValues = [55, 49, 44];
+        var barColors = [
+        "#c0e3e7",
+        "#e1e1e1",
+        "#2b5797",
+        ];
+
+        new Chart("skillsChart", {
+            type: "pie",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            plugins: {
+                legend: {
+                    align: 'end'
+                }
+            }
+        });
+    </script>
+</body>
+</html>
