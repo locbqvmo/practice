@@ -1,10 +1,7 @@
 :root {
-  --primary-color: #000;
-  --second-color: #fff;
-  --extra-color: #dee2e6;
-  --main-color: #f50057;
-  /* --third-color: #0bceaf; */
-  --third-color: #00bfb2;
+  --black-color: #000;
+  --white-color: #fff;
+  --primary-color: #00bfb2;
   --grey-color: #6c757d;
   --transparent-color: rgb(255, 255, 255, 0.1);
 }
@@ -40,11 +37,11 @@
 
 /* BACKGROUND-COLOR */
 .bg-third {
-  background-color: var(--third-color);
+  background-color: var(--primary-color);
 }
 
 .bg-second {
-  background-color: var(--second-color);
+  background-color: var(--white-color);
 }
 
 .bg-transparent {
@@ -204,11 +201,11 @@
 
 /* COLOR */
 .color-second {
-  color: var(--second-color);
+  color: var(--white-color);
 }
 
 .color-third {
-  color: var(--third-color);
+  color: var(--primary-color);
 }
 
 .color-grey {
@@ -254,7 +251,7 @@
 
 /* FONT-FAMILY */
 .text-stroke {
-  -webkit-text-stroke: 2px var(--second-color);
+  -webkit-text-stroke: 2px var(--white-color);
 }
 
 .text-serif {
