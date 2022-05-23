@@ -1,10 +1,31 @@
 :root {
-  --primary-color: #000;
-  --second-color: #fff;
-  --main-color: #f50057;
-  /* --third-color: #0bceaf; */
-  --third-color: #00bfb2;
+  --lighter-color: #dee2e6;
 }
+
+/* ANIMATION - START */
+#about-portfolio,
+#quality-portfolio,
+#skill-portfolio,
+#website-portfolio {
+  animation-name: animation;
+  animation-duration: 1s;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0.25;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* ANIMATION - END */
 
 * {
   margin: 0;
@@ -14,7 +35,6 @@
 }
 
 /* TITLE - START */
-
 .about-me h2::after,
 .quality h2::after,
 .skill h2::after,
@@ -26,7 +46,7 @@
   font-size: 7.5rem;
   top: -3.25rem;
   color: white;
-  -webkit-text-stroke: 1px var(--extra-color);
+  -webkit-text-stroke: 1px var(--lighter-color);
 }
 .about-me h2::after {
   content: "ABOUT";
@@ -86,7 +106,6 @@
     padding: 1rem;
   }
 }
-
 /* TITLE - END */
 
 /*.INTRODUCTION - START */
@@ -133,7 +152,6 @@
 /*.INTRODUCTION - END */
 
 /* ABOUT_ME - START  */
-
 @media screen and (max-width: 1000px) {
   .about-thumbnail img {
     display: none;
