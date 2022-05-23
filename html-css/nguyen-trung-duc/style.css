@@ -1,0 +1,339 @@
+* {
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: normal;
+}   
+
+.Fs-625 {
+    font-size: 62.5%;
+}
+
+.Fw-w {
+    flex-wrap: wrap;
+}
+
+.Ov-h {
+    overflow: hidden;
+}
+
+.Mh-100 {
+    min-height: 100vh;
+}
+
+.Pb-10 {
+    padding-bottom: 10rem;
+}
+
+.Fd-c {
+    flex-direction: column;
+}
+
+.D-f {
+    display: flex;
+}
+
+.Jc-c {
+    justify-content: center;
+}
+
+.Fd-c {
+    flex-direction: columns;
+}
+
+.Ai-c {
+    align-items: center;
+}
+
+.Jc-sb {
+    justify-content: space-between;
+}
+
+.Bg-lg {
+    background: linear-gradient(deeppink, purple);
+}
+
+.P-55 {
+    padding: 5.5rem;
+}
+
+.Pxy-02 {
+    padding:0 2rem ;
+}
+
+.W-35 {
+    width: 35rem;
+}
+
+.Bxsh-012r {
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+}
+
+.Bdf-b {
+    backdrop-filter: blur(.4rem);
+}
+
+.Ta-c {
+    text-align: center;
+}
+
+.P-1 {
+    padding: 1rem;
+}
+
+.Pt-2 {
+    padding-top: 2rem;
+}
+
+.Fs-25 {
+    font-size: 2.5rem;
+}
+
+.Mgt-1 {
+    margin-top: 1rem;
+}
+
+.Mgb-1 {
+    margin-bottom: 1rem;
+}
+
+.W-15 {
+    width: 15rem;
+}
+
+.Bdrs-50 {
+    border-radius: 50%;
+}
+
+.Bdrs-20 {
+    border-radius: 20%;
+}
+
+.Objf-cv {
+    object-fit: cover;
+}
+
+.Fs-5 {
+    font-size: 5rem;
+}
+
+.Bxsh-0001 {
+    box-shadow: 0 0 0 1rem rgba(255, 255, 255, .2);
+}   
+
+.Fs-3 {
+    font-size: 3rem;
+}
+
+.C-fff {
+    color: #fff;
+}
+
+.Pb-2 {
+    padding-bottom: 2rem;
+}
+
+.Py {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.Fs-18 {
+    font-size: 1.8rem;
+}
+
+.C-eee {
+    color: #eee;
+}
+
+.Fw-lr {
+    font-weight: lighter;
+}
+
+.List-n {
+    list-style-type: none;
+}
+
+.Mgl-2 {
+    margin-left: 2rem;
+}
+
+.Mx-3 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.Mx-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.Mgt-10 {
+    margin-top: 10rem ;
+}
+
+.Bg-rgba {
+    background: rgba(255, 255, 255, .2);
+}
+
+.P-15 {
+    padding: 1.5rem;
+}
+
+.P-1535 {
+    padding: 1rem 3.5rem;
+}
+
+.Fs-2 {
+    font-size: 2rem;
+}
+
+.P-2 {
+    padding: 2rem;
+}
+
+.Bdrs-1 {
+    border-radius: 1rem;
+}
+
+.Mg {
+    margin: 1rem;
+}
+
+.D-b {
+    display: block;
+}
+
+.hover-bg:hover {
+    background: rgb(229, 210, 210);
+    transition: all .2s linear;
+}
+
+.hover-t:hover {
+    color: #333;
+}
+
+.H-58 {
+    height: 59rem;
+}
+
+.H-21 {
+    height: 21rem;
+}
+
+.W-80 {
+    width: 80rem;
+}
+
+.H-15 {
+    height: 15rem;
+}
+
+.W-15 {
+    width: 15rem;
+}
+
+.Cs-p {
+    cursor: pointer;
+}
+
+.Fs-15 {
+    font-size: 1.5rem;
+}
+
+.i-hover {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.i-hover:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.Pxy-02 {
+    padding: 0 2rem;
+}
+
+.Borl-2-s-eee {
+    border-left: .2rem solid #eee;
+}
+
+.P-r {
+    position: relative;
+}
+
+.Year-before::before {
+    content: "";
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: #fff;
+    top: .3rem;
+    left: -1.1rem;
+}
+
+.P-12 {
+    padding: 1rem 2rem;
+}
+
+.W-60{
+    width: 60%;
+}
+
+.P-01 {
+    padding: 0 1rem;
+}
+
+.H-4 {
+    height: 4rem;
+}
+
+.M-1 {
+    margin: 1rem;
+}
+
+.W-45 {
+    width: 45%;
+}
+
+.W-97 {
+    width: 97%;
+}
+
+.Mgt-5 {
+    margin-top: 5rem;
+}
+
+.Ml-1 {
+    margin-left: 1rem;
+}
+
+.Pd-15 {
+    padding: 1rem 5rem;
+}
+
+.Mgr-2 {
+    margin-right: 2rem;
+}
+
+.icons {
+    margin-bottom: 2rem;
+}
+
+input::placeholder, 
+textarea::placeholder
+{
+    color: white;
+}
+
+.Mgt-2 {
+    margin-top: 2rem;
+}
