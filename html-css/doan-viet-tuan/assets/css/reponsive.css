@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
-  .nav-mobie > ul {
+  .nav-mobile > ul {
     width: 75%;
   }
-  #home>div {
+  .home > div {
     flex-direction: row-reverse;
     justify-content: space-evenly;
   }
@@ -54,7 +54,7 @@
     margin-left: 300px;
   }
 
-  .nav-mobie {
+  .nav-mobile {
     display: none;
   }
 
@@ -69,7 +69,7 @@
     background: #38ada9
   }
 
-  #home {
+  .home {
     background-image: url('../image/what-is-a-web-developer.jpg');
     height: 100vh;
     background-repeat: no-repeat;
@@ -78,9 +78,7 @@
     opacity: 0.5;
   }
 
-
-
-  #home>.d-flex {
+  .home >.d-flex {
     display: none;
   }
 }
